@@ -1,0 +1,29 @@
+h3{
+    color: orange;
+}
+#title{
+    background-color: brown;
+}
+.background{
+    background-color: aqua;
+}
+p{
+    color:brown;
+    background-color: antiquewhite;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+    /*truyền 1 giá trụ: cách xung quanh = giá trị đó */
+    /* 2 giá trị: giá trị 1 ( trên dưới), 2(trái phải) */
+    /*margin: 50px 30px 100px 10px */;
+    /*margin auto là căn khối ra giữa */
+    width: 50%;
+    margin: 50px auto;
+}
+
+.box3{
+    background-color: red;
+}
