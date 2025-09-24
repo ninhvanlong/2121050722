@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let thongTinKhachHang = {
+            maDonHang:"12345678",
+            thongTinKhachHang: {
+                hoTen: "abc",
+                soDienThoai: "1234568",
+                trangThaiThanhVienThanThiet: false,
+            },
+            danhSachSanPham: {
+                sp01: {
+                    maSanPham: "1",
+                    tenSanPham: "Cafe",
+                    soLuong: 10,
+                    giaTien: 10000,
+                },
+                sp02: {
+                    maSanPham: "2",
+                    tenSanPham: "Coca",
+                    soLuong: 10,
+                    giaTien: 20000,
+                },
+                sp03: {
+                    maSanPham: "3",
+                    tenSanPham: "Trà Sữa",
+                    soLuong: 10,
+                    giaTien: 20000,
+                }
+            },
+            thanhToanThanhCong: true,
+            diaChiGiaoHang: "Hà Nội"
+        }
+        let tongSP1 = thongTinDonHang.danhSachSanPham.sp01.giaTien * thongTinDonHang.danhSachSanPham.sp01.soLuong;
+        let tongSP2 = thongTinDonHang.danhSachSanPham.sp02.giaTien * thongTinDonHang.danhSachSanPham.sp02.soLuong;
+        let tongSP3 = thongTinDonHang.danhSachSanPham.sp03.giaTien * thongTinDonHang.danhSachSanPham.sp03.soLuong;
+
+        let tongTien = tongSP1 + tongSP2 + tongSP3;
+
+        document.writeln("Tong tien don hang = " + tongTien);
+        
+        //document.writeln("Độ dài của mã đơn hàng: ")
+        var myString = "Hello ABC";
+        document.writeln(myString.replace("Hello", "Hi"));
+        //indexOf trả ra vị trí xuất hiện đầu tiên
+        // nếu có; vị trí, nếu k: -1
+        document.writeln(myString.includes('e'));
+        //tách chuỗi thành mảng
+        document.writeln(myString.split('1'));
+        // chuyển chuỗi về số
+        let so = "123";
+        document.writeln
+        //thuộc tính của number
+        var pi = 2.14159
+        //
+        isNaN(NaN);//kết quả: true
+        isFinite(10);//kết quả: true
+
+        let toDay = new Date('2023-09-23');
+        document.writeln(toDay);
+
+    </script>
+</body>
+</html>
+
