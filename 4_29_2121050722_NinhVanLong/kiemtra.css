@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: whitesmoke;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid white;
+}
+
+thead th {
+    border-bottom: 2px solid rgb(211, 209, 207);
+}
+
+.section td {
+    background-color: rgb(175, 170, 164);
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: beige;
+}
+

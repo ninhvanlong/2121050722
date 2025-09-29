@@ -1,15 +1,15 @@
 h3{
-    color: orange;
+    color: rgb(234, 172, 57);
 }
 #title{
-    background-color: brown;
+    background-color: rgb(184, 15, 15);
 }
 .background{
     background-color: aqua;
 }
 p{
-    color:brown;
-    background-color: antiquewhite;
+    color:rgb(31, 3, 3);
+    background-color: rgb(243, 215, 179);
 }
 .box1{
     background-color: red;
